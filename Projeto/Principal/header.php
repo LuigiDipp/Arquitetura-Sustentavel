@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,18 +12,3 @@
 </head>
 <body>
 <header class="col-12"><a href="/Projeto/Principal/index.html"><h1>casa_verde</h1></a></header>
-<main class="container-fluid" id="main">
- <div class="col-12 row prin">         
-    <div class="col-5 mt-3 ml-3 ola" ><h1><a href="./documentos.html">Documentação</a></h1></div>
-    <div class="col-5 mt-3 ml-3 ola" "><h1>Impacto</h1></div>
-    <div class="col-5 mt-3 ml-3 ola" ">
-        <a href="partes.html"><h1>Demos</h1></a>
-    </div>
-    <div class="col-5 mt-3 ml-3  ola">
-        <a href="./gameslegais.html"><h1>Partes do Projeto</h1></a>
-    </div> 
- </div>
-</main>
-
-</body>
-</html>
