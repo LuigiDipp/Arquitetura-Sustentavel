@@ -171,22 +171,40 @@ nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(qua
 */
 
 .cube {
-    position: relative;
+    position: static;
     transform-style: preserve-3d;
-    
+    max-width: fit-content;
 }
 
 .cube22{
     position: relative;
     transform-style: preserve-3d;
     transform: rotateX(-45deg) rotateY(45deg);
-    
+    margin-top: 4vh;
 }
 
 .cube23{
-    position:sticky;
+    position:relative;
     transform-style: preserve-3d;
     transform:rotateY(90deg);
+    
+}
+.cube24{
+    position:relative;
+    transform-style: preserve-3d;
+    transform:rotateY(180deg);
+    
+}
+.cube25{
+    position:relative;
+    transform-style: preserve-3d;
+    transform:rotateY(270deg);
+    
+}
+.cube26{
+    position:relative;
+    transform-style: preserve-3d;
+    transform:rotateY(360deg);
     
 }
 
@@ -199,6 +217,7 @@ nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(qua
     border: 3px solid black; 
     border-bottom: dashed;
     background-color: #ffffff;
+    color: #000000;
 }
 
 .lol:nth-child(3) {
@@ -218,11 +237,27 @@ nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(qua
 .cube1 {
     position: relative;
     transform-style: preserve-3d;
-    transform: rotateX(-45deg) rotateY(45deg);
-    margin-left: 4.5vw;
-    margin-top: 4.5vw;
+    max-width: fit-content;
+    transform: translateX(54px) rotateX(-45deg) rotateY(45deg);
+    margin-top: 6vw;
 }
 
+
+.cube12 {
+    position: relative;
+    transform-style: preserve-3d;
+    max-width: fit-content;
+    transform: translateX(380px) translateY(-54px) rotateX(-45deg) rotateY(180deg);
+
+}
+
+.cube13 {
+    position: relative;
+    transform-style: preserve-3d;
+    max-width: fit-content;
+    transform: translateX(580px)   translateY(-54px) rotateX(-45deg) rotateY(-90deg);
+
+}
 
 .x { transform: translateZ(100px); }
 .z { transform: translateZ(-100px) rotateY(180deg); }
@@ -233,14 +268,17 @@ nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(qua
 
 
 .lala {
-justify-content:space-around;
+justify-content: space-between;
 display: flexbox;
 }
 
 .pol3{
-    border: #9e9e9e 5px solid;
-    background-color: #fff78d;
+    border: #000000 5px solid;
+    background-color: #11d465;
     padding-top: 5vh;
+    margin-top: 5vh;
     height: 50vh;
     border-radius: 15px;
+    color: #000000;
+    
 }

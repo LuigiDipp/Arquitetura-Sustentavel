@@ -13,7 +13,7 @@ $c = $_POST['pm'];
 $height = $x*1;
 $width = $y*1;
 $depth = $z*1;
-$heightar = $y*10;
+$heightar = $x*10;
 $widthar = $y*10;
 $depthar = $z*10;
 
@@ -35,40 +35,51 @@ $pf = $npt / $nf;
 
 $area = $depth * $width;
 
-
 echo "<div class='container-fluid'>";
 echo "<div class='row mt-5 mb-5 lala'>";
 
-echo "<div class='col-2 pol3'>";
-echo "<div class='col-1'>";
-echo "<div class='cube'>";
+echo "<div class='col-12 pol3'>";
+echo "<div class='cube col-2'>";
 echo "<div class='ml-4 lol c' style='width: {$widthar}px; height: {$heightar}px;'>frente</div>";
-echo "<div class='ml-2 lol x' style='width: {$depthar}px; height: {$widthar}px;'>lado esquerdo</div>";
+echo "<div class='ml-2 lol x' style='width: {$depthar}px; height: {$heightar}px;'>lado esquerdo</div>";
 echo "<div class='ml-2 lol b' style='width: {$depthar}px; height: {$widthar}px;'>Cima</div>";
-echo "<div class='ml-2 lol z' style='width: {$depthar}px; height: {$widthar}px;'>lado direito</div>";
+echo "<div class='ml-2 lol z' style='width: {$depthar}px; height: {$heightar}px;'>lado direito</div>";
 echo "<div class='ml-2 lol v' style='width: {$widthar}px; height: {$heightar}px;'>costas</div>";
 echo "</div>";
-echo "<div class='cube23'>";
+echo "<div class='cube23 col-2'>";
 echo "<div class='ml-4 lol c' style='width: {$widthar}px; height: {$heightar}px;'>frente</div>";
-echo "<div class='ml-2 lol x' style='width: {$depthar}px; height: {$widthar}px;'>lado esquerdo</div>";
+echo "<div class='ml-2 lol x' style='width: {$depthar}px; height: {$heightar}px;'>lado esquerdo</div>";
 echo "<div class='ml-2 lol b' style='width: {$depthar}px; height: {$widthar}px;'>Cima</div>";
-echo "<div class='ml-2 lol z' style='width: {$depthar}px; height: {$widthar}px;'>lado direito</div>";
+echo "<div class='ml-2 lol z' style='width: {$depthar}px; height: {$heightar}px;'>lado direito</div>";
 echo "<div class='ml-2 lol v' style='width: {$widthar}px; height: {$heightar}px;'>costas</div>";
-echo "</div>";
 echo "</div>";
 echo "</div>";
 
-echo "<div class='col-2 pol3'>";
-echo "<div class='col-1'>";
+
+echo "<div class='col-7 pol3'>";
 echo "<div class='cube1'>";
 echo "<div class='ml-4 lol c' style='width: {$widthar}px; height: {$heightar}px;'>frente</div>";
-echo "<div class='ml-2 lol x' style='width: {$depthar}px; height: {$widthar}px;'>lado esquerdo</div>";
+echo "<div class='ml-2 lol x' style='width: {$depthar}px; height: {$heightar}px;'>lado esquerdo</div>";
 echo "<div class='ml-2 lol b' style='width: {$depthar}px; height: {$widthar}px;'>Cima</div>";
-echo "<div class='ml-2 lol z' style='width: {$depthar}px; height: {$widthar}px;'>lado direito</div>";
+echo "<div class='ml-2 lol z' style='width: {$depthar}px; height: {$heightar}px;'>lado direito</div>";
+echo "<div class='ml-2 lol v' style='width: {$widthar}px; height: {$heightar}px;'>costas</div>";
+echo "</div>";
+echo "<div class='cube12'>";
+echo "<div class='ml-4 lol c' style='width: {$widthar}px; height: {$heightar}px;'>frente</div>";
+echo "<div class='ml-2 lol x' style='width: {$depthar}px; height: {$heightar}px;'>lado esquerdo</div>";
+echo "<div class='ml-2 lol b' style='width: {$depthar}px; height: {$widthar}px;'>Cima</div>";
+echo "<div class='ml-2 lol z' style='width: {$depthar}px; height: {$heightar}px;'>lado direito</div>";
+echo "<div class='ml-2 lol v' style='width: {$widthar}px; height: {$heightar}px;'>costas</div>";
+echo "</div>";
+echo "<div class='cube13'>";
+echo "<div class='ml-4 lol c' style='width: {$widthar}px; height: {$heightar}px;'>frente</div>";
+echo "<div class='ml-2 lol x' style='width: {$depthar}px; height: {$heightar}px;'>lado esquerdo</div>";
+echo "<div class='ml-2 lol b' style='width: {$depthar}px; height: {$widthar}px;'>Cima</div>";
+echo "<div class='ml-2 lol z' style='width: {$depthar}px; height: {$heightar}px;'>lado direito</div>";
 echo "<div class='ml-2 lol v' style='width: {$widthar}px; height: {$heightar}px;'>costas</div>";
 echo "</div>";
 echo "</div>";
-echo "</div>";
+
 
 
 
@@ -124,4 +135,7 @@ if (isset($_POST['composteira'])) {
 
 
 
+?>
+<?php
+    include 'footer.php'
 ?>

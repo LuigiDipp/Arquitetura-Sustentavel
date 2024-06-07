@@ -30,7 +30,7 @@ GODZILLAVSKONG
 
 nome da classe no css
 frente costas esquerda direita calhas hortas
-
+  
 cada modelo pode ser salvo em sql
 nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(quais componentes foram usados) / imagem-do-modelo /  
 
