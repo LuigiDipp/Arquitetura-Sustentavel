@@ -22,8 +22,19 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
-
+O SITE VAI SER UM CONSTRUTOR DE MORADIA SUSTENTAVEL SÓ ISSO
+DEFINIR PARAMETROS PLACAS SOLARES, CISTERNA, HORTAS, IRRIGAÇÃO, RECICLAGEM, BIODIGESTOR, COMPOSTEIRA
+CADA MODELO É ÚNICO E PODE SER SALVO PARA FUTURAS CONSULTAS
+GODZILLAVSKONG
 --
+
+nome da classe no css
+frente costas esquerda direita calhas hortas
+
+cada modelo pode ser salvo em sql
+nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(quais componentes foram usados) / imagem-do-modelo /  
+
+
 -- Estrutura para tabela `materiais`
 --
 
