@@ -149,11 +149,6 @@ float: left;
     font-family: IBM Plex Mono;
 }
     
-
-.lol{
-
-}
-
 /*
 
 O SITE VAI SER UM CONSTRUTOR DE MORADIA SUSTENTAVEL SÓ ISSO
@@ -187,7 +182,7 @@ nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(qua
     position:relative;
     transform-style: preserve-3d;
     transform:rotateY(90deg);
-    
+    float: left;
 }
 .cube24{
     position:relative;
@@ -204,13 +199,25 @@ nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(qua
 .cube26{
     position:relative;
     transform-style: preserve-3d;
-    transform:rotateY(360deg);
-    
+    transform:rotateY(1deg);
 }
 
 .lol {
     position: absolute;
-    opacity: 1;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black; 
+    border-bottom: dashed;
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+.lol2 {
+    float: left;
+    opacity: 0.9;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -230,25 +237,34 @@ nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(qua
     background-size: 200%;
     background-position: 100%;
     background-repeat: unset;
-
 }
 
+.lol2:nth-child(3) {
+    float: left;
+    opacity: 0.9;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./ASSETS/faceta\ cima\ predio\ modelo\ creatorAtivo\ 10.svg');
+    border: 3px solid black; 
+    border-bottom: dashed;
+    background-color: #ffffff;
+    color: #000000;
+}
 
 .cube1 {
     position: relative;
     transform-style: preserve-3d;
     max-width: fit-content;
-    transform: translateX(54px) rotateX(-45deg) rotateY(45deg);
+    transform:rotateX(-45deg) rotateY(45deg);
     margin-top: 6vw;
+    margin-left: 5.2vw;
 }
-
 
 .cube12 {
     position: relative;
     transform-style: preserve-3d;
     max-width: fit-content;
     transform: translateX(380px) translateY(-54px) rotateX(-45deg) rotateY(180deg);
-
 }
 
 .cube13 {
@@ -256,7 +272,6 @@ nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(qua
     transform-style: preserve-3d;
     max-width: fit-content;
     transform: translateX(580px)   translateY(-54px) rotateX(-45deg) rotateY(-90deg);
-
 }
 
 .x { transform: translateZ(100px); }
@@ -265,20 +280,25 @@ nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(qua
 .v { transform: translateX(-6px) rotateY(90deg); }
 .b { transform: translateY(-100px) rotateX(90deg); }
 
-
-
 .lala {
-justify-content: space-between;
+justify-content: space-evenly;
 display: flexbox;
 }
 
 .pol3{
-    border: #000000 5px solid;
     background-color: #11d465;
     padding-top: 5vh;
-    margin-top: 5vh;
+    margin-top: 5vh; 
     height: 50vh;
-    border-radius: 15px;
+    border-radius: 45px;
     color: #000000;
-    
+    font-family: IBM Plex Mono;
+}
+
+footer{
+    height: 10vh;
+    background-image: url(./ASSETS/plantinha\ footer.png);
+    background-repeat:repeat-x;
+    background-size: contain;
+    image-rendering: pixelated;
 }

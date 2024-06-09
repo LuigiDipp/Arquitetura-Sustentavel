@@ -36,21 +36,25 @@ $pf = $npt / $nf;
 $area = $depth * $width;
 
 echo "<div class='container-fluid'>";
-echo "<div class='row mt-5 mb-5 lala'>";
+echo "<div class='row lala'>";
 
-echo "<div class='col-2 pol3'>";
-echo "<div class='cube col-2'>";
-echo "<div class='ml-4 lol c' style='width: {$widthar}px; height: {$heightar}px;'>frente</div>";
-echo "<div class='ml-2 lol x' style='width: {$depthar}px; height: {$heightar}px;'>lado esquerdo</div>";
-echo "<div class='ml-2 lol b' style='width: {$depthar}px; height: {$widthar}px;'>Cima</div>";
-echo "<div class='ml-2 lol z' style='width: {$depthar}px; height: {$heightar}px;'>lado direito</div>";
-echo "<div class='ml-2 lol v' style='width: {$widthar}px; height: {$heightar}px;'>costas</div>";
+echo "<div class='col-8 pol3'>";
+
+echo "<div class='ml-2 lol2 ' style='width: {$widthar}px; height: {$heightar}px;'>frente</div>";
+
+echo "<div class='ml-2 lol2 ' style='width: {$depthar}px; height: {$heightar}px;'>lado esquerdo</div>";
+
+echo "<div class='ml-2 lol2 ' style='width: {$depthar}px; height: {$widthar}px;'>Cima</div>";
+
+echo "<div class='ml-2 lol2 ' style='width: {$depthar}px; height: {$heightar}px;'>lado direito</div>";
+
+echo "<div class='ml-2 lol2 ' style='width: {$widthar}px; height: {$heightar}px;'>costas</div>";
+
+
+
 echo "</div>";
 
-echo "</div>";
-
-
-echo "<div class='col-2 pol3'>";
+echo "<div class='col-3 pol3'>";
 
 echo "<div class='cube1'>";
 echo "<div class='ml-4 lol c' style='width: {$widthar}px; height: {$heightar}px;'>frente</div>";
@@ -60,14 +64,11 @@ echo "<div class='ml-2 lol z' style='width: {$depthar}px; height: {$heightar}px;
 echo "<div class='ml-2 lol v' style='width: {$widthar}px; height: {$heightar}px;'>costas</div>";
 echo "</div>";
 
+echo "<h1>Isométrico</h1>";
 
 echo "</div>";
 
-
-
-
-
-echo "<div class='col-3 pol3'>";
+echo "<div class='col-6 pol3'>";
 echo "<p>Area: $area</p>";
 echo "<p>npa: $npa</p>";
 echo "<p>naps: $naps</p>";
@@ -77,10 +78,11 @@ echo "<p>pf: $pf</p>";
 echo "<p>nf: $nf</p>";
 echo"</div>";
 
-echo "<div class='col-3 pol3'>";
-echo "<form action='ulop.php' method='post'>";
-    echo "altura: <input type='number' name='height' step='0.01' value='$nf'>";
-    echo "<input type='submit' value='Salvar modelo'>";
+echo "<div class='col-5 pol3'>";
+
+echo "<form action='./ulop.php' name='salvamento' method='POST'>";
+echo "<input type='number' name='salvar' step='0.01' value='$nf' for='Filtros'>";
+echo "<input type='submit' action='enviar' method='GET' value='Salvar modelo' for='salvamento'>";
 echo "</form>";
 echo "</div>";
 
@@ -88,33 +90,27 @@ echo "</div>";
 echo "</div>";
 
 
+if (isset($_POST['calhas'])) {
 
 
-
-
-
-
-
-
-/*if (isset($_POST['calhas'])) {
-    echo "<div style='width: {$width}px; height: {$height}px; border:3px solid orange; border-bottom: dashed;'></div>";
+    echo "<div style='width: {$widthar}px; height: {$heightar}px; border:3px solid orange; border-bottom: blue dashed;'></div>";
     
 }
 
 if (isset($_POST['hortas'])) {
-    echo "<div style='width: {$width}px; height: {$height}px; border:3px solid orange; border-bottom: dashed;'></div>";
+    echo "<div style='width: {$widthar}px; height: {$heightar}px; border:3px solid orange; border-bottom: dashed;'></div>";
     
 }
 
 if (isset($_POST['biodigestor'])) {
-    echo "<div style='width: {$width}px; height: {$height}px; border:3px solid orange; border-bottom: dashed;'></div>";
+    echo "<div style='width: {$widthar}px; height: {$heightar}px; border:3px solid orange; border-bottom: dashed;'></div>";
     
 }
 
 if (isset($_POST['composteira'])) {
-    echo "<div style='width: {$width}px; height: {$height}px; border:3px solid orange; border-bottom: dashed;'></div>";
+    echo "<div style='width: {$widthar}px; height: {$heightar}px; border:3px solid orange; border-bottom: dashed;'></div>";
     
-}*/
+}
 
 
 
