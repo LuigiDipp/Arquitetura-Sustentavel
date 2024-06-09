@@ -35,6 +35,32 @@ $pf = $npt / $nf;
 
 $area = $depth * $width;
 
+
+if (isset($_POST['calhas'])) {
+
+    echo "<div class='ml-4 lol c' style='width: {$widthar}px; height: {$heightar}px; border-bottom: blue dashed;'>frente</div>";
+    echo "<div class='ml-2 lol x' style='width: {$depthar}px; height: {$heightar}px;border-bottom: blue dashed;'>lado esquerdo</div>";
+    echo "<div class='ml-2 lol b' style='width: {$depthar}px; height: {$widthar}px;border-bottom: blue dashed;'>Cima</div>";
+    echo "<div class='ml-2 lol z' style='width: {$depthar}px; height: {$heightar}px;border-bottom: blue dashed;'>lado direito</div>";
+    echo "<div class='ml-2 lol v' style='width: {$widthar}px; height: {$heightar}px;border-bottom: blue dashed;'>costas</div>";
+    
+}
+
+if (isset($_POST['hortas'])) {
+    echo "<div style='width: {$widthar}px; height: {$heightar}px; border:3px solid orange; border-bottom: dashed;'></div>";
+    
+}
+
+if (isset($_POST['biodigestor'])) {
+    echo "<div style='width: {$widthar}px; height: {$heightar}px; border:3px solid orange; border-bottom: dashed;'></div>";
+    
+}
+
+if (isset($_POST['composteira'])) {
+    echo "<div style='width: {$widthar}px; height: {$heightar}px; border:3px solid orange; border-bottom: dashed;'></div>";
+    
+}
+
 echo "<div class='container-fluid'>";
 echo "<div class='row lala'>";
 
@@ -90,27 +116,6 @@ echo "</div>";
 echo "</div>";
 
 
-if (isset($_POST['calhas'])) {
-
-
-    echo "<div style='width: {$widthar}px; height: {$heightar}px; border:3px solid orange; border-bottom: blue dashed;'></div>";
-    
-}
-
-if (isset($_POST['hortas'])) {
-    echo "<div style='width: {$widthar}px; height: {$heightar}px; border:3px solid orange; border-bottom: dashed;'></div>";
-    
-}
-
-if (isset($_POST['biodigestor'])) {
-    echo "<div style='width: {$widthar}px; height: {$heightar}px; border:3px solid orange; border-bottom: dashed;'></div>";
-    
-}
-
-if (isset($_POST['composteira'])) {
-    echo "<div style='width: {$widthar}px; height: {$heightar}px; border:3px solid orange; border-bottom: dashed;'></div>";
-    
-}
 
 
 
