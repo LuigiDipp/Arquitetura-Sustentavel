@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 25/04/2024 às 22:34
+-- Tempo de geração: 09/06/2024 às 16:20
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -22,27 +22,19 @@ SET time_zone = "+00:00";
 --
 
 -- --------------------------------------------------------
-O SITE VAI SER UM CONSTRUTOR DE MORADIA SUSTENTAVEL SÓ ISSO
-DEFINIR PARAMETROS PLACAS SOLARES, CISTERNA, HORTAS, IRRIGAÇÃO, RECICLAGEM, BIODIGESTOR, COMPOSTEIRA
-CADA MODELO É ÚNICO E PODE SER SALVO PARA FUTURAS CONSULTAS
-GODZILLAVSKONG
+
+--
+-- Estrutura para tabela `nãosalvos`
 --
 
-nome da classe no css
-frente costas esquerda direita calhas hortas
-  
-cada modelo pode ser salvo em sql
-nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(quais componentes foram usados) / imagem-do-modelo /  
-
-
--- Estrutura para tabela `materiais`
---
-
-CREATE TABLE `materiais` (
-  `Concreto` int(12) NOT NULL,
-  `Painel_Solar` int(12) NOT NULL,
-  `Verde` int(12) NOT NULL,
-  `Calha` int(12) NOT NULL
+CREATE TABLE `nãosalvos` (
+  `area` int(45) NOT NULL,
+  `volume` int(45) NOT NULL,
+  `npa` int(45) NOT NULL,
+  `naps` int(45) NOT NULL,
+  `npt` int(45) NOT NULL,
+  `pf` int(45) NOT NULL,
+  `nf` int(45) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 COMMIT;
 

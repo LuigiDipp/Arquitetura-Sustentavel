@@ -34,6 +34,7 @@ $nf = $cfun / $tdf;
 $pf = $npt / $nf;
 
 $area = $depth * $width;
+$area2 = $depth * $width* $height;
 
 
 if (isset($_POST['calhas'])) {
@@ -76,9 +77,9 @@ echo "<div class='ml-2 lol2 ' style='width: {$depthar}px; height: {$heightar}px;
 
 echo "<div class='ml-2 lol2 ' style='width: {$widthar}px; height: {$heightar}px;'>costas</div>";
 
-
-
 echo "</div>";
+
+
 
 echo "<div class='col-3 pol3'>";
 
@@ -95,13 +96,13 @@ echo "<h1>Isométrico</h1>";
 echo "</div>";
 
 echo "<div class='col-6 pol3'>";
-echo "<p>Area: $area</p>";
-echo "<p>npa: $npa</p>";
-echo "<p>naps: $naps</p>";
-echo "<p>lp: $lp</p>";
-echo "<p>npt: $npt</p>";
-echo "<p>pf: $pf</p>";
-echo "<p>nf: $nf</p>";
+echo "<p>Area: $area m²</p>";
+echo "<p>Volume: $area2 m²</p>";
+echo "<p>Placas por apartamento: $npa</p>";
+echo "<p>Número de apartamentos: $naps</p>";
+echo "<p>Total de placas: $npt</p>";
+echo "<p>Placas por fileira $pf</p>";
+echo "<p>Número de fileiras de placas: $nf</p>";
 echo"</div>";
 
 echo "<div class='col-5 pol3'>";
