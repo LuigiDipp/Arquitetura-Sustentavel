@@ -107,9 +107,19 @@ echo"</div>";
 
 echo "<div class='col-5 pol3'>";
 
-echo "<form action='./ulop.php' name='salvamento' method='POST'>";
-echo "<input type='number' name='salvar' step='0.01' value='$nf' for='Filtros'>";
-echo "<input type='submit' action='enviar' method='GET' value='Salvar modelo' for='salvamento'>";
+echo "<form action='./ulop.php' name='salvamento' method='post'>";
+
+echo "<input type='number' name='salvar2' step='0.01' value='$area'>";
+echo "<input type='number' name='salvar3' step='0.01' value='$area2'>";
+echo "<input type='number' name='salvar4' step='0.01' value='$npa'>";
+echo "<input type='number' name='salvar5' step='0.01' value='$naps'>";
+echo "<input type='number' name='salvar6' step='0.01' value='$npt'>";
+echo "<input type='number' name='salvar7' step='0.01' value='$nf'>";
+echo "<input type='number' name='salvar8' step='0.01' value='$pf'>";
+echo "<input type='search' name='salvar9' step='0.01' placeholder='Se identifique'>";
+
+echo "<input type='submit' action='ulop.php' value='Salvar modelo' for='salvamento'>";
+
 echo "</form>";
 echo "</div>";
 

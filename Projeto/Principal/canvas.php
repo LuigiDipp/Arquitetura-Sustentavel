@@ -18,33 +18,9 @@
      possui hortas: <input type="radio" name="hortas">
      possui biodigestor: <input type="radio" name="biodigestor">
      possui composteira: <input type="radio" name="composteira">
-    <input type="submit" value="Generate Quadrilateral">
+    <input type="submit" value="faça a boa">
 </form>
 
-
-
-
-    <canvas id="myCanvas" style="border:1px solid #000000;"  width:"900" length:"900" ></canvas>
-    <script>
-        const canvas = document.getElementById("myCanvas");
-        const ctx = canvas.getContext("2d");
-
-        x = 1;
-        y = 1;
-
-
-        
-
-        ctx.beginPath();
-        ctx.moveTo(0, 0);
-        ctx.lineTo(300, 150);
-        ctx.moveTo(0, 150);
-        ctx.lineTo(0, 0);
-
-        ctx.lineWidth = 5;
-        ctx.strokeStyle = "blue";
-        ctx.stroke();
-    </script>
 <img src="./ASSETS/calibragem.png">
 
 <div class="container1">
