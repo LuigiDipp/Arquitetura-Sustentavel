@@ -6,9 +6,9 @@
 </head>
 <body>
 
-<h1>🏢🌳Arquitetura Sustentável🌳🏢</h1>
+<h1 align="center">🏢🌳Arquitetura Sustentável🌳🏢</h1>
 
-<h2>Descrição</h2>
+<h2 align="center">Descrição</h2>
 <p>Este projeto é uma aplicação web abrangente que oferece informações detalhadas sobre arquitetura sustentável e inclui uma calculadora interativa para ajudar os usuários a entenderem e implementarem práticas sustentáveis em seus projetos arquitetônicos.</p>
 
 <h3>Funcionalidades</h3>
@@ -21,7 +21,7 @@
     <li><strong>Backend Seguro:</strong> Implementação de funcionalidades do lado do servidor com PHP, garantindo segurança e eficiência no processamento dos dados.</li>
 </ul>
 
-<h3>Tecnologias Utilizadas</h3>
+<h3 align="center">Tecnologias Utilizadas</h3>
 <ul>
     <li><strong>HTML5:</strong> Estruturação e semântica do conteúdo.</li>
     <li><strong>CSS3:</strong> Estilização e design responsivo.</li>
@@ -30,7 +30,7 @@
     <li><strong>PHP:</strong> Processamento de dados no servidor e integração com o banco de dados.</li>
 </ul>
 
-<h3>Como Executar</h3>
+<h3 align="center">Como Executar</h3>
 <ol>
     <li>Clone este repositório: <code>git clone https://github.com/usuario/projeto-arquitetura-sustentavel.git</code></li>
     <li>Navegue até o diretório do projeto: <code>cd projeto-arquitetura-sustentavel</code></li>
@@ -39,10 +39,10 @@
     <li>Acesse a aplicação via navegador em <code>http://localhost:8000</code></li>
 </ol>
 
-<h3>Contribuição</h3>
+<h3 align="center">Contribuição</h3>
 <p>Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests com melhorias e novas funcionalidades.</p>
 
-<h3>Licença</h3>
+<h3 align="center">Licença</h3>
 <p>Este projeto está licenciado sob a <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
 
 <p>Este projeto visa educar e empoderar arquitetos, designers e entusiastas da sustentabilidade, fornecendo ferramentas e conhecimento para construir um futuro mais verde e responsável.</p>
