@@ -11,6 +11,7 @@
 
 <h2 align="center">Descrição</h2>
 <br>
+<br>
 <p>Este projeto é uma aplicação web abrangente que oferece informações detalhadas sobre arquitetura sustentável e inclui uma calculadora interativa para ajudar os usuários a entenderem e implementarem práticas sustentáveis em seus projetos arquitetônicos.</p>
 
 <h3>Funcionalidades</h3>
