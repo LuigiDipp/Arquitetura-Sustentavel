@@ -9,10 +9,10 @@
 <h1 align="center">🏢🌳Arquitetura Sustentável🌳🏢</h1>
 <br>
 
-<h1 align="center">Descrição</h2>
+<h1 align="center">📢Descrição📢</h2>
 <p>Este projeto é uma aplicação web abrangente que oferece informações detalhadas sobre arquitetura sustentável e inclui uma calculadora interativa para ajudar os usuários a entenderem e implementarem práticas sustentáveis em seus projetos arquitetônicos.</p>
 <br>
-<h1 align="center">⚙️Funcionalidades⚙️</h1><br>
+<h1 align="center">⚙️Funcionalidades⚙️</h1>
 <br>
 <ul>
     <li><strong>Informações Detalhadas:</strong> Página rica em conteúdo com artigos, guias e estudos de caso sobre técnicas e benefícios da arquitetura sustentável.</li>
@@ -32,7 +32,6 @@
     <li><strong>SQL:</strong> Gerenciamento de banco de dados.</li>
     <li><strong>PHP:</strong> Processamento de dados no servidor e integração com o banco de dados.</li>
 </ul>
-
 <h1 align="center">🔨Como Executar🔨</h1>
 <br>
 <ol>
