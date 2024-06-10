@@ -35,8 +35,8 @@
 <h1 align="center">🔨Como Executar🔨</h1>
 <br>
 <ol>
-    <li>Clone este repositório: <code>git clone https://github.com/usuario/projeto-arquitetura-sustentavel.git</code></li>
-    <li>Navegue até o diretório do projeto: <code>cd projeto-arquitetura-sustentavel</code></li>
+    <li>Clone este repositório: <code>git clone https://github.com/usuario/Arquitetura-Sustentavel.git</code></li>
+    <li>Navegue até o diretório do projeto: <code>Projeto/Principal/index.html</code></li>
     <li>Configure o banco de dados SQL conforme as instruções no arquivo <code>README.md</code>.</li>
     <li>Inicie o servidor local PHP: <code>php -S localhost:8000</code></li>
     <li>Acesse a aplicação via navegador em <code>http://localhost:8000</code></li>
