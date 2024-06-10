@@ -12,7 +12,7 @@
 <h1 align="center">Descrição</h2>
 <p>Este projeto é uma aplicação web abrangente que oferece informações detalhadas sobre arquitetura sustentável e inclui uma calculadora interativa para ajudar os usuários a entenderem e implementarem práticas sustentáveis em seus projetos arquitetônicos.</p>
 
-<h3>Funcionalidades</h3>
+<h1>Funcionalidades</h3>
 <br>
 <ul>
     <li><strong>Informações Detalhadas:</strong> Página rica em conteúdo com artigos, guias e estudos de caso sobre técnicas e benefícios da arquitetura sustentável.</li>
@@ -23,7 +23,7 @@
     <li><strong>Backend Seguro:</strong> Implementação de funcionalidades do lado do servidor com PHP, garantindo segurança e eficiência no processamento dos dados.</li>
 </ul>
 
-<h2 align="center">Tecnologias Utilizadas</h3>
+<h1 align="center">Tecnologias Utilizadas</h3>
 <br>
 <ul>
     <li><strong>HTML5:</strong> Estruturação e semântica do conteúdo.</li>
@@ -33,7 +33,7 @@
     <li><strong>PHP:</strong> Processamento de dados no servidor e integração com o banco de dados.</li>
 </ul>
 
-<h2 align="center">Como Executar</h3>
+<h1 align="center">Como Executar</h3>
 <br>
 <ol>
     <li>Clone este repositório: <code>git clone https://github.com/usuario/projeto-arquitetura-sustentavel.git</code></li>
@@ -43,7 +43,7 @@
     <li>Acesse a aplicação via navegador em <code>http://localhost:8000</code></li>
 </ol>
 
-<h2 align="center">Contribuição</h3>
+<h1 align="center">Contribuição</h3>
 <br>
 <p>Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests com melhorias e novas funcionalidades.</p>
 
