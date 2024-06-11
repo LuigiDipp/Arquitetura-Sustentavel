@@ -44,7 +44,7 @@ font-family:IBM Plex Mono;
 color:#000000;
 height:70vh;
 border-radius:30px ;
-background-color: #11d465;
+background-color: #198754;
 
 }
 
@@ -204,7 +204,7 @@ nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(qua
 
 .lol {
     position: absolute;
-    opacity: 0.9;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -217,7 +217,7 @@ nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(qua
 
 .lol2 {
     float: left;
-    opacity: 0.9;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -241,7 +241,7 @@ nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(qua
 
 .lol2:nth-child(3) {
     float: left;
-    opacity: 0.9;
+    
     align-items: center;
     justify-content: center;
     background-image: url('./ASSETS/faceta\ cima\ predio\ modelo\ creatorAtivo\ 10.svg');
@@ -286,17 +286,18 @@ display: flexbox;
 }
 
 .pol3{
-    background-color: #11d465;
+    background-color: #198754;
     padding-top: 5vh;
     margin-top: 5vh; 
     height: 50vh;
     border-radius: 45px;
-    color: #000000;
+    color: #ffffff;
     font-family: IBM Plex Mono;
 }
 
 footer{
     height: 10vh;
+    margin-top: 5vh;
     background-image: url(./ASSETS/plantinha\ footer.png);
     background-repeat:repeat-x;
     background-size: contain;
