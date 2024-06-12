@@ -83,15 +83,26 @@ echo "</div>";
 
 echo "<div class='col-3 pol3'>";
 
-echo "<div class='cube1'>";
-echo "<div class='ml-4 lol c' style='width: {$widthar}px; height: {$heightar}px;'>frente</div>";
-echo "<div class='ml-2 lol x' style='width: {$depthar}px; height: {$heightar}px;'>lado esquerdo</div>";
-echo "<div class='ml-2 lol b' style='width: {$depthar}px; height: {$widthar}px;'>Cima</div>";
-echo "<div class='ml-2 lol z' style='width: {$depthar}px; height: {$heightar}px;'>lado direito</div>";
-echo "<div class='ml-2 lol v' style='width: {$widthar}px; height: {$heightar}px;'>costas</div>";
-echo "</div>";
 
-echo "<h1>Isométrico</h1>";
+echo "<canvas></canvas>";
+echo "<script>function drawCube($x, $y, $x, $y, $z) {
+    ctx.beginPath();
+    ctx.moveTo($x, $y);
+    ctx.lineTo($x - $x, $y - $x * 0.5);
+    ctx.lineTo($x - $x, $y - $z - $x * 0.5);
+    ctx.lineTo($x, $y - $z);
+    ctx.closePath();
+    ctx.fillStyle = '#ffffff';
+    ctx.strokeStyle = '#ffffff';
+    ctx.stroke();
+    ctx.fill();
+    }
+</script>";
+
+
+
+
+echo "<h1 id='sdio'>dasdas</h1>";
 
 echo "</div>";
 

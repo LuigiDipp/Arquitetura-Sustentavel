@@ -303,3 +303,8 @@ footer{
     background-size: contain;
     image-rendering: pixelated;
 }
+
+#sdio{
+    text-align: center;
+}
+
