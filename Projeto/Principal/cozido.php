@@ -102,7 +102,7 @@ echo "<script>function drawCube($x, $y, $x, $y, $z) {
 
 
 
-echo "<h1 id='sdio'>dasdas</h1>";
+echo "<h1 id='sdio'>Modelo construído com sucesso</h1>";
 
 echo "</div>";
 
@@ -120,16 +120,16 @@ echo "<div class='col-5 pol3'>";
 
 echo "<form action='./ulop.php' name='salvamento' method='post'>";
 
-echo "<input type='number' name='salvar2' step='0.01' value='$area'>";
-echo "<input type='number' name='salvar3' step='0.01' value='$area2'>";
-echo "<input type='number' name='salvar4' step='0.01' value='$npa'>";
-echo "<input type='number' name='salvar5' step='0.01' value='$naps'>";
-echo "<input type='number' name='salvar6' step='0.01' value='$npt'>";
-echo "<input type='number' name='salvar7' step='0.01' value='$nf'>";
-echo "<input type='number' name='salvar8' step='0.01' value='$pf'>";
-echo "<input type='search' name='salvar9' step='0.01' placeholder='Se identifique'>";
+echo "<input class='cell' type='number' name='salvar2' step='0.01' value='$area'>";
+echo "<input class='cell'  type='number' name='salvar3' step='0.01' value='$area2'>";
+echo "<input class='cell'  type='number' name='salvar4' step='0.01' value='$npa'>";
+echo "<input class='cell'  type='number' name='salvar5' step='0.01' value='$naps'>";
+echo "<input class='cell'  type='number' name='salvar6' step='0.01' value='$npt'>";
+echo "<input class='cell'  type='number' name='salvar7' step='0.01' value='$nf'>";
+echo "<input class='cell'  type='number' name='salvar8' step='0.01' value='$pf'>";
+echo "<input class='cell'  type='search' name='salvar9' step='0.01' placeholder='Se identifique'>";
 
-echo "<input type='submit' action='ulop.php' value='Salvar modelo' for='salvamento'>";
+echo "<input type='submit' value='Salvar modelo' for='salvamento'>";
 
 echo "</form>";
 echo "</div>";

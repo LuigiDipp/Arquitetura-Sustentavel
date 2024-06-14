@@ -3,36 +3,27 @@
 ?>
 
 
-<h1>As medidas são em metros. Caso centímetro, use decimais</h1>
-
-<form action="cozido.php" method="post">
-     altura: <input type="number" name="height" step="0.01">
-     comprimento: <input type="number" name="width" step="0.01">
-     largura: <input type="number" name="depth" step="0.01">
-     apartamentos: <input type="number" name="naps" step="0.01">
-     largura da placa: <input type="number" name="lp" step="0.01">
-     produção mensal da placa: <input type="number" name="pm" step="0.01">
-     quanto deseja: <input type="number" name="desejo" step="0.01">
-     quanto consome: <input type="number" name="consumo" step="0.01">
-     possui calhas: <input type="radio" name="calhas">
-     possui hortas: <input type="radio" name="hortas">
-     possui biodigestor: <input type="radio" name="biodigestor">
-     possui composteira: <input type="radio" name="composteira">
-    <input type="submit" value="faça a boa">
+<main class="container-fluid" id="main">
+ <div class="col-12 row prin" style="height:80vh;";>         
+ <h1 >As dimensões são em metros. Caso centímetro, use decimais.</h1>
+ <h1 >Informações da placa solar são em kW/h.</h1>
+<form class="col-9"  action="cozido.php" method="post">
+<h2 class="cell">Altura:<input type="number" name="height" step="0.01"></h2>
+<h2 class="cell">Comprimento: <input type="number" name="width" step="0.01"></h2>
+<h2 class="cell">Largura:<input type="number" name="depth" step="0.01"></h2>
+<h2 class="cell">Apartamentos:<input type="number" name="naps" step="0.01"></h2>
+<h2 class="cell">Largura da placa:<input type="number" name="lp" step="0.01"></h2>
+<h2 class="cell">Produção mensal da placa: <input type="number" name="pm" step="0.01"></h2>
+<h2 class="cell">Quanto consome: <input type="number" name="consumo" step="0.01"></h2>
+<h2 class="cell">Possui calhas:<input type="radio" name="calhas"></h2>
+<h2 class="cell">Possui hortas: <input type="radio" name="hortas"></h2>
+<h2 class="cell">Possui biodigestor: <input type="radio" name="biodigestor"></h2>
+<h2 class="cell">Possui composteira: <input type="radio" name="composteira"></h2>
+<input type="submit" value="faça a boa">
 </form>
+ </div>
+</main>
 
-<img src="./ASSETS/calibragem.png">
-
-<div class="container1">
-    <div class="cube">
-        <div class="face top">Top</div>
-        <div class="face bottom">Bottom</div>
-        <div class="face left">Left</div>
-        <div class="face right">Right</div>
-        <div class="face front">Front</div>
-        <div class="face back">Back</div>
-    </div>
-</div>
 
 
 <?php

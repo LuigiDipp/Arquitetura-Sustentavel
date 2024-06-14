@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 09/06/2024 às 16:20
+-- Tempo de geração: 13/06/2024 às 23:43
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -34,8 +34,19 @@ CREATE TABLE `nãosalvos` (
   `naps` int(45) NOT NULL,
   `npt` int(45) NOT NULL,
   `pf` int(45) NOT NULL,
-  `nf` int(45) NOT NULL
+  `nf` int(45) NOT NULL,
+  `Autor` varchar(90) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Índices para tabelas despejadas
+--
+
+--
+-- Índices de tabela `nãosalvos`
+--
+ALTER TABLE `nãosalvos`
+  ADD PRIMARY KEY (`Autor`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

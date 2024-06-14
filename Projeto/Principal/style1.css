@@ -32,7 +32,7 @@ color: #000000;
 background-color: #ffffff;
 display: flexbox;
 justify-content: center;
-height: 100vh;
+
 }
 
 main h1{
@@ -41,21 +41,53 @@ font-family:IBM Plex Mono;
 }
 
 .ola{
-color:#000000;
-height:70vh;
+color:#ffffff;
 border-radius:30px ;
 background-color: #198754;
-
+overflow: hidden;
+min-height: 40vh;
 }
+
+
+
+.olal{
+    color:#ffffff;
+    border-radius:30px ;
+    background-color: #198754;
+    overflow: hidden;
+    min-height: 40vh;
+    height: 62vh;
+    }
+
+.ola:nth-child(1){
+    background-image: url('./ASSETS/plantinha\ footer-exsdasdaaport.png');
+    background-position:95%;
+    background-size:15vw;
+    image-rendering: pixelated;
+    background-repeat: no-repeat;
+    }
+
+    .ola:nth-child(2){
+        background-image: url('./ASSETS/plantinha\ footer-exsdasdaasdasdasdasdasdaport.png');
+        background-position:95%;
+        background-size:15vw;
+        image-rendering: pixelated;
+        background-repeat: no-repeat;
+        }
+
+        
+    .ola:nth-child(3){
+        background-image: url('./ASSETS/pixcog.png');
+        background-position:100%;
+        background-size:15vw;
+        image-rendering: pixelated;
+        background-repeat: no-repeat;
+        }
+
 
 ola p {
     float: right;
 }
-
-.prin{
-    justify-content: center;
-    }
-
 
 
 #gif1{
@@ -112,6 +144,33 @@ a{
 color: inherit;
 }
 
+
+.cell{
+    border:2px solid #0c3522;
+    border-bottom: none;
+    font-family:IBM Plex Mono;
+    margin-bottom: 0rem;
+
+}
+.cell:nth-child(11){
+    border:2px solid #0c3522;
+}
+
+.cell input{
+    border: none;
+}
+
+#logoutro{
+    width: 5vh;
+    image-rendering: pixelated;
+    margin-left: 2vh;
+}
+
+
+.prin{
+    justify-content: center;
+    }
+
 .pixel{
 font-family: IBM Plex Mono;
 color:#0c3522;
@@ -148,22 +207,6 @@ float: left;
     font-size: 55px;
     font-family: IBM Plex Mono;
 }
-    
-/*
-
-O SITE VAI SER UM CONSTRUTOR DE MORADIA SUSTENTAVEL SÓ ISSO
-DEFINIR PARAMETROS PLACAS SOLARES, CISTERNA, HORTAS, IRRIGAÇÃO, RECICLAGEM, BIODIGESTOR, COMPOSTEIRA
-CADA MODELO É ÚNICO E PODE SER SALVO PARA FUTURAS CONSULTAS
-GODZILLAVSKONG
---
-
-nome da classe no css
-frente costas esquerda direita calhas hortas
-
-cada modelo pode ser salvo em sql
-nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(quais componentes foram usados) / imagem-do-modelo /  
-
-*/
 
 .cube {
     position: static;
@@ -283,6 +326,7 @@ nome-do-modelo / criador / relação-consumo-produção (eficiência) / tags(qua
 .lala {
 justify-content: space-evenly;
 display: flexbox;
+
 }
 
 .pol3{
@@ -302,6 +346,7 @@ footer{
     background-repeat:repeat-x;
     background-size: contain;
     image-rendering: pixelated;
+    overflow: hidden;
 }
 
 #sdio{
