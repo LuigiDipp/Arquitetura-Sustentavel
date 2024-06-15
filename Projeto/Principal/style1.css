@@ -35,11 +35,6 @@ justify-content: center;
 
 }
 
-main h1{
-font-weight: 400;
-font-family:IBM Plex Mono;
-}
-
 .ola{
 color:#ffffff;
 border-radius:30px ;
@@ -57,10 +52,11 @@ min-height: 40vh;
     overflow: hidden;
     min-height: 40vh;
     height: 62vh;
+    font-family:IBM Plex Mono;
     }
 
 .ola:nth-child(1){
-    background-image: url('./ASSETS/plantinha\ footer-exsdasdaaport.png');
+    background-image: url('./ASSETS/pixil-frame-0\ \(1\).png');
     background-position:95%;
     background-size:15vw;
     image-rendering: pixelated;
@@ -68,7 +64,7 @@ min-height: 40vh;
     }
 
     .ola:nth-child(2){
-        background-image: url('./ASSETS/plantinha\ footer-exsdasdaasdasdasdasdasdaport.png');
+        background-image: url('./ASSETS/pixil-frame-0.png');
         background-position:95%;
         background-size:15vw;
         image-rendering: pixelated;
