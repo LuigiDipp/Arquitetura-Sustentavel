@@ -108,12 +108,12 @@ animation: roda 15s infinite linear;
 
 #toy{
 /*background-image: url('./ASSETS/Group 13.svg');
-animation: mexe 100s infinite linear;*/
+animation: mexe 100s infinite linear;
 image-rendering: pixelated;
 background-image: url(./ASSETS/pest.png); 
 background-size:200%;
 background-blend-mode:screen;
-background-color: #1100ff;
+background-color: #1100ff;*/
 }
 
 
