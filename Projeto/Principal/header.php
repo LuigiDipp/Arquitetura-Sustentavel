@@ -11,4 +11,4 @@
 
 </head>
 <body>
-<header class="col-12 mt-3"><a href="/Arquitetura-Sustentavel/Projeto/Principal/lixil.php"><h1>CONSTRUTOR</h1></a><a href="/Arquitetura-Sustentavel/Projeto/Principal/index.html"><img id="logoutro" src="./ASSETS/Group 13.svg"></a></header>
+<header class="col-12 pt-3"><a href="/Arquitetura-Sustentavel/Projeto/Principal/lixil.php"><h1>CONSTRUTOR</h1></a><a href="/Arquitetura-Sustentavel/Projeto/Principal/index.html"><img id="logoutro" src="./ASSETS/casapronta.svg"></a></header>

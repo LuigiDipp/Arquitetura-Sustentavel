@@ -18,11 +18,6 @@ $widthar = $y*10;
 $depthar = $z*10;
 
 
-/*$calhas = $_POST['calhas'];
-$hortas = $_POST['hortas'];
-$biodigestor = $_POST['biodigestor'];
-$composteira = $_POST['composteira'];*/
-
 $cmm = $_POST['consumo'];
 $npa = $cmm/$c;
 $naps = $_POST['naps'];
