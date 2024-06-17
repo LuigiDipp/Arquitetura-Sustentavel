@@ -14,10 +14,10 @@
 <h2 class="cell">Largura da placa:<input type="number" name="lp" step="0.01"></h2>
 <h2 class="cell">Produção mensal da placa: <input type="number" name="pm" step="0.01"></h2>
 <h2 class="cell">Quanto consome: <input type="number" name="consumo" step="0.01"></h2>
-<h2 class="cell">Possui calhas:<input type="radio" name="calhas"></h2>
-<h2 class="cell">Possui hortas: <input type="radio" name="hortas"></h2>
-<h2 class="cell">Possui biodigestor: <input type="radio" name="biodigestor"></h2>
-<h2 class="cell">Possui composteira: <input type="radio" name="composteira"></h2>
+<h2 class="cell">Possui calhas e cisterna:<input type="checkbox" name="calhas"></h2>
+<h2 class="cell">Possui hortas: <input type="checkbox" name="hortas"></h2>
+<h2 class="cell">Possui biodigestor: <input type="checkbox" name="biodigestor"></h2>
+<h2 class="cell">Possui composteira: <input type="checkbox" name="composteira"></h2>
 <input class="botaocook col" type="submit" value="Construa!">
 </form>
  </div>
