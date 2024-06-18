@@ -5,7 +5,7 @@
 
 <main class="container-fluid" id="main">
  <div class="col-12 row prin" style="height:80vh;";>         
- <h2 >As dimensões são em metros. Caso centímetro, use decimais. <br>Informações da placa solar são em kW/h.</h2>
+ <h2 >As dimensões são em metros. Caso centímetro, use decimais. <br>Informações da placa solar são em kWh.</h2>
 <form class="col-9"  action="cozido.php" method="post">
 <h2 class="cell">Altura:<input type="number" name="height" step="0.01"></h2>
 <h2 class="cell">Comprimento: <input type="number" name="width" step="0.01"></h2>

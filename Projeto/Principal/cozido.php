@@ -38,6 +38,34 @@ $area = $depth * $width;
 $area2 = $depth * $width* $height;
 
 
+if($calhas == "on"){
+    $calhas1 = 1; 
+}
+else{
+    $calhas1 = 0; 
+}
+
+if($hortas == "on"){
+    $hortas1 = 1; 
+}
+else{
+    $hortas1 = 0; 
+}
+
+if($comps == "on"){
+    $comps1 = 1; 
+}
+else{
+    $comps1 = 0; 
+}
+
+if($biodi == "on"){
+    $biodi1 = 1; 
+}
+else{
+    $biodi1 = 0; 
+}
+
 
 echo "<div class='container-fluid'>";
 echo "<div class='row lala'>";
@@ -90,12 +118,12 @@ echo "<input class='cell'  type='number' name='salvar5' step='0.01' value='$naps
 echo "<input class='cell'  type='number' name='salvar6' step='0.01' value='$npt'>";
 echo "<input class='cell'  type='number' name='salvar7' step='0.01' value='$nf'>";
 echo "<input class='cell'  type='number' name='salvar8' step='0.01' value='$pf'>";
-echo "<input class='cell'  type='' name='salvar5' value='$calhas'>";
-echo "<input class='cell' name='salvar6' value='$comps'>";
-echo "<input class='cell' name='salvar7' value='$hortas'>";
-echo "<input class='cell' name='salvar8' value='$biodi'>";
+echo "<input class='cell' name='salvar10' value='$calhas1'>";
+echo "<input class='cell' name='salvar11' value='$hortas1'>";
+echo "<input class='cell' name='salvar12' value='$comps1'>";
+echo "<input class='cell' name='salvar13' value='$biodi1'>";
 
-echo "<input class='cell'  type='search' name='salvar9' step='0.01' placeholder='Se identifique'>";
+echo "<input class='cell'  type='search' name='salvar9' placeholder='Se identifique'>";
 
 echo "<input type='submit' value='Salvar modelo' for='salvamento'>";
 
@@ -104,10 +132,6 @@ echo "</div>";
 
 echo "</div>";
 echo "</div>";
-
-
-
-
 
 ?>
 <?php

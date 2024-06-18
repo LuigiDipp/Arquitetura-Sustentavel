@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 13/06/2024 às 23:43
+-- Tempo de geração: 18/06/2024 às 00:47
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -35,8 +35,24 @@ CREATE TABLE `nãosalvos` (
   `npt` int(45) NOT NULL,
   `pf` int(45) NOT NULL,
   `nf` int(45) NOT NULL,
-  `Autor` varchar(90) NOT NULL
+  `Autor` varchar(90) NOT NULL,
+  `calhas` tinyint(1) NOT NULL,
+  `biodigestores` tinyint(1) NOT NULL,
+  `hortas` tinyint(1) NOT NULL,
+  `composteiras` tinyint(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Despejando dados para a tabela `nãosalvos`
+--
+
+INSERT INTO `nãosalvos` (`area`, `volume`, `npa`, `naps`, `npt`, `pf`, `nf`, `Autor`, `calhas`, `biodigestores`, `hortas`, `composteiras`) VALUES
+(484, 10648, 1, 0, 0, 0, 0, '6574646', 0, 0, 0, 0),
+(484, 10648, 1, 0, 0, 0, 0, '6574646222', 0, 0, 0, 0),
+(484, 10648, 1, 0, 0, 0, 0, 'hhhg', 0, 0, 0, 0),
+(484, 10648, 1, 0, 0, 0, 0, 'iouiuoasdasdasdiou', 0, 0, 0, 0),
+(484, 10648, 1, 0, 0, 0, 0, 'iouiuoyiou', 0, 0, 0, 0),
+(484, 10648, 1, 0, 0, 0, 0, 'sadsda', 0, 0, 0, 0);
 
 --
 -- Índices para tabelas despejadas
