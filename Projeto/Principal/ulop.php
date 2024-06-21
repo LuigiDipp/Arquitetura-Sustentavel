@@ -35,21 +35,13 @@ $gravar = $mysqli->query($slvr);
 $mostrar = $mysqli->query($shower);
 
 
-echo "<p>$s2</p>";
-echo "<p>$s9</p>";
-echo "<p>$s3</p>";
-echo "<p>$s4</p>";
-echo "<p>$s5</p>";
-echo "<p>$s6</p>";
-echo "<p>$s7</p>";
-echo "<p>$s8</p>";
-
-
+while ($row = $mostrar->fetch_assoc()) {
+    echo $row['Autor'] ;
 }
 
 $mysqli->close();
 
-
+}
 
 
 ?>

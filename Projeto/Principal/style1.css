@@ -33,7 +33,7 @@ color: #000000;
 background-color: #ffffff;
 display: flexbox;
 justify-content: center;
-font-family: IBM Plex Mono;
+font-family: Poppins;
 }
 
 .ola{
@@ -59,7 +59,7 @@ min-height: 40vh;
     background-color: #198754;
     overflow: hidden;
     height: 50vh;
-    font-family:IBM Plex Mono;
+    font-family:Poppins;
 }
 
 .opoli{
@@ -67,7 +67,7 @@ min-height: 40vh;
     border-radius:30px ;
     border: 5px solid #198754;
     height: 20vh;
-    font-family:IBM Plex Mono;
+    font-family:Poppins;
 }
 
 .ola:nth-child(1){
@@ -103,6 +103,14 @@ min-height: 40vh;
         background-size:15vw;
         image-rendering: pixelated;
         background-repeat: no-repeat;
+        }
+
+                
+    .ola:nth-child(5){
+        background-image: url('./ASSETS/untitled\ 332549-Screenshot\ 305562.png');
+        background-position:100%;
+        background-size:5vw;
+        image-rendering: pixelated;
         }
 
 
@@ -175,7 +183,7 @@ p{
 .cell{
     border:2px solid #198754;
     border-bottom: none;
-    font-family:IBM Plex Mono;
+    font-family:Poppins;
     margin-bottom: 0rem;
 
 }
@@ -196,6 +204,7 @@ p{
 
 .prin{
     justify-content: center;
+    height:80vh;
     }
 
 
@@ -344,7 +353,7 @@ display: flexbox;
     height: 50vh;
     border-radius: 45px;
     color: #ffffff;
-    font-family: IBM Plex Mono;
+    font-family: Poppins;
 }
 
 footer{
