@@ -7,7 +7,7 @@
 <body>
 
 <h1 align="center">🏢🌳Arquitetura Sustentável🌳🏢</h1>
-
+<br>
 
 <h1 align="center">📢Descrição📢</h2>
 <p align="center">Este projeto é uma aplicação web abrangente que oferece informações detalhadas sobre arquitetura sustentável e inclui uma calculadora interativa para ajudar os usuários a entenderem e implementarem práticas sustentáveis em seus projetos arquitetônicos.</p>
