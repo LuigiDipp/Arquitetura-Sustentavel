@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 18/06/2024 às 00:47
--- Versão do servidor: 10.4.28-MariaDB
--- Versão do PHP: 8.2.4
+-- Tempo de geração: 22/06/2024 às 15:08
+-- Versão do servidor: 10.4.32-MariaDB
+-- Versão do PHP: 8.0.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -35,24 +35,22 @@ CREATE TABLE `nãosalvos` (
   `npt` int(45) NOT NULL,
   `pf` int(45) NOT NULL,
   `nf` int(45) NOT NULL,
-  `Autor` varchar(90) NOT NULL,
   `calhas` tinyint(1) NOT NULL,
   `biodigestores` tinyint(1) NOT NULL,
   `hortas` tinyint(1) NOT NULL,
-  `composteiras` tinyint(1) NOT NULL
+  `composteiras` tinyint(1) NOT NULL,
+  `Autor` varchar(90) NOT NULL,
+  `ID` int(15) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Despejando dados para a tabela `nãosalvos`
 --
 
-INSERT INTO `nãosalvos` (`area`, `volume`, `npa`, `naps`, `npt`, `pf`, `nf`, `Autor`, `calhas`, `biodigestores`, `hortas`, `composteiras`) VALUES
-(484, 10648, 1, 0, 0, 0, 0, '6574646', 0, 0, 0, 0),
-(484, 10648, 1, 0, 0, 0, 0, '6574646222', 0, 0, 0, 0),
-(484, 10648, 1, 0, 0, 0, 0, 'hhhg', 0, 0, 0, 0),
-(484, 10648, 1, 0, 0, 0, 0, 'iouiuoasdasdasdiou', 0, 0, 0, 0),
-(484, 10648, 1, 0, 0, 0, 0, 'iouiuoyiou', 0, 0, 0, 0),
-(484, 10648, 1, 0, 0, 0, 0, 'sadsda', 0, 0, 0, 0);
+INSERT INTO `nãosalvos` (`area`, `volume`, `npa`, `naps`, `npt`, `pf`, `nf`, `calhas`, `biodigestores`, `hortas`, `composteiras`, `Autor`, `ID`) VALUES
+(144, 1728, 1, 12, 12, 13, 1, 1, 1, 0, 0, 'João', 3),
+(144, 1728, 1, 12, 12, 13, 1, 0, 0, 1, 1, 'heitor', 4),
+(6400, 512000, 1, 80, 80, 89, 1, 1, 1, 0, 0, 'Pedor', 5);
 
 --
 -- Índices para tabelas despejadas
@@ -62,7 +60,17 @@ INSERT INTO `nãosalvos` (`area`, `volume`, `npa`, `naps`, `npt`, `pf`, `nf`, `A
 -- Índices de tabela `nãosalvos`
 --
 ALTER TABLE `nãosalvos`
-  ADD PRIMARY KEY (`Autor`);
+  ADD PRIMARY KEY (`ID`);
+
+--
+-- AUTO_INCREMENT para tabelas despejadas
+--
+
+--
+-- AUTO_INCREMENT de tabela `nãosalvos`
+--
+ALTER TABLE `nãosalvos`
+  MODIFY `ID` int(15) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
