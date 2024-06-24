@@ -13,16 +13,39 @@
 
 $shower= "SELECT * FROM nãosalvos";
 $mostrar = $mysqli->query($shower);
-
 while ($row = $mostrar->fetch_assoc()) {
+
+
+
+
     echo "<div class='cell col-lg-6'>";
-    echo $row['Autor']."<br>";
-    echo $row['area']."<br>";
-    echo $row['npa']."<br>";
-    echo $row['calhas']."<br>";
-    echo $row['biodigestores']."<br>";
-    echo $row['composteiras']."<br>";
-    echo $row['hortas']."<br>";
+    echo "Autor: ".$row['Autor']."<br>";
+    echo "Área: ".$row['area']." m²<br>";
+    echo "Placas por Apt.:".$row['npa']."<br>";
+            if($row['calhas'] == 1){
+                echo "Calhas: Sim <br>";
+            }
+            else{
+                echo "Calhas: Não<br>";
+            }
+            if($row['biodigestores'] == 1){
+                echo "Biogás: Sim <br>";
+            }
+            else{
+                echo "Biogás: Não<br>";
+            }
+            if($row['composteiras'] == 1){
+                echo "Composteiras: Sim <br>";
+            }
+            else{
+                echo "Composteiras: Não<br>";
+            }
+            if($row['hortas'] == 1){
+                echo "Hortas: Sim<br>";
+            }
+            else{
+                echo "Hortas: Não<br>";
+            }
     echo "</div>";
 }
 
@@ -32,6 +55,5 @@ $mysqli->close();
 
  </div>
 </main>
-<?php
-    include 'footer.php'
-?>
+</body>
+</html>
