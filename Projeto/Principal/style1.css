@@ -108,7 +108,7 @@ min-height: 40vh;
 
                 
     .ola:nth-child(5){
-        background-image: url('./ASSETS/untitled\ 332549-Screenshot\ 305562.png');
+        /*background-image: url('./ASSETS/untitled\ 332549-Screenshot\ 305562.png');*/
         background-position:100%;
         background-size:5vw;
         image-rendering: pixelated;
