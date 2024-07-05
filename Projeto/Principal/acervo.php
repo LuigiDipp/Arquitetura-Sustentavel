@@ -15,9 +15,6 @@ $shower= "SELECT * FROM nãosalvos";
 $mostrar = $mysqli->query($shower);
 while ($row = $mostrar->fetch_assoc()) {
 
-
-
-
     echo "<div class='cell col-lg-6'>";
     echo "Autor: ".$row['Autor']."<br>";
     echo "Área: ".$row['area']." m²<br>";
